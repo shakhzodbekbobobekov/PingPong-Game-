@@ -126,7 +126,60 @@ body {
     background-color: rgba(199, 26, 61, 0.822);
 }
 
+/* Responsive */
 
+@media ( min-width: 0 ) and ( max-width: 300px ){  
+    .values-box h2 {
+        font-size: 16px;
+        color: rgb(8, 161, 161);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .to {
+        font-size: 10px;
+    }
+    
+    .players {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .values-box .player-1, .player-2 {
+        font-size: 18px;
+    }
+    
+    .values-box select {
+        width: 15vh;
+        height: 4vh;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+/*  */
+    .buttons-box {
+        margin-top: -15px;
+    }
+    .btn-player1, .btn-player2 {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .reset {
+        width: 100px;
+        height: 5vh;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+
+
+}
 
 
 
