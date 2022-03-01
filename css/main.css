@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 
 body {
@@ -39,6 +40,42 @@ body {
     height: 20vh;
     text-align: center;
 }
+
+.values-box h2 {
+    font-size: 28px;
+    color: rgb(8, 161, 161);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.players {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.values-box .player-1, .player-2 {
+    font-size: 24px;
+}
+
+.values-box select {
+    width: 20vh;
+    height: 5vh;
+    text-align: center;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .buttons-box {
     max-width: 100%;
