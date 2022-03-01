@@ -5,6 +5,11 @@
     font-family: monospace;
 }
 
+*:focus {
+    outline: 2px dotted rgb(1, 94, 94);
+    outline-offset: 1px;
+}
+
 body {
     background-image: url('../img/bg.jpg');
     background-position: center;
@@ -48,6 +53,10 @@ body {
     margin-bottom: 10px;
 }
 
+.to {
+    font-size: 16px;
+}
+
 .players {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -66,23 +75,60 @@ body {
     background-color: rgba(7, 252, 252, 0.308);
     border: none;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.values-box select:hover {
+    background-color: aqua;
+}
 
 .buttons-box {
     max-width: 100%;
     height: 20vh;
 }
+.buttons-box {
+    text-align: center;
+}
+
+.btn-player1 {
+    margin-right: 15px;
+}
+
+.btn-player1, .btn-player2 {
+    border: none;
+    background-color: rgba(7, 252, 252, 0.308);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-player1:hover, .btn-player2:hover {
+    background-color: aqua;
+}
+
+.reset {
+    width: 200px;
+    height: 6vh;
+    margin-top: 10px;
+    background-color: crimson;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.reset:hover {
+    background-color: rgba(199, 26, 61, 0.822);
+}
+
+
+
+
+
+
+
