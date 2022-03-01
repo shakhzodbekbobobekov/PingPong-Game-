@@ -58,10 +58,15 @@ body {
 }
 
 .values-box select {
-    width: 20vh;
+    width: 15vh;
     height: 5vh;
     text-align: center;
     outline: none;
+    color: rgb(4, 56, 56);
+    background-color: rgba(7, 252, 252, 0.308);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
 }
 
 
