@@ -1,1 +1,5 @@
-console.log('hello word');
+const player1 = document.querySelector('.player-1')
+const player2 = document.querySelector('.player-2')
+const select = document.querySelector('#select')
+const btnPlayer1 = document.querySelector('.btn-player1')
+const btnPlayer2 = document.querySelector('.btn-player2')
