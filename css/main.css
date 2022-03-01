@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .container {
@@ -156,7 +157,6 @@ body {
         font-size: 14px;
     }
 
-/*  */
     .buttons-box {
         margin-top: -15px;
     }
@@ -175,10 +175,6 @@ body {
         border-radius: 5px;
         font-size: 14px;
     }
-
-
-
-
 }
 
 
