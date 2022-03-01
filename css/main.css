@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     background-color: #fff;
     border-radius: 10px;
@@ -24,7 +24,7 @@ body {
 
 .img-box {
     max-width: 100%;
-    height: 30vh;
+    height: 40vh;
     border-radius: 10px;
 }
 
@@ -32,4 +32,15 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.values-box {
+    max-width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+
+.buttons-box {
+    max-width: 100%;
+    height: 20vh;
 }
